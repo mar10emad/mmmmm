@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Yummy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/media.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">    
+</head>
+<body>
+	
+ <div id="loading">
+	<i class="fa fa-spinner fa-spin fa-5x"></i>
+ </div>
+ <section>
+	<div class="side ">
+		<div class="nav position-relative">
+			
+			<ul>
+			  <li class="item1"><a id="search">Search</a></li>
+			  <li class="item1"><a id="categories">Categories</a></li>
+			  <li class="item2"><a id="area">Area</a></li>
+			  <li class="item3"><a id="ingredients">Ingredients</a></li>
+			  <li class="item6"><a id="contactUs">Contact Us</a></li>
+			</ul>
+			  
+			<div class="social-icons position-absolute">
+				  <a><i class="fab fa-facebook-f"></i></a>
+				  <a><i class="fab fa-twitter"></i></a>
+				  <a><i class="fas fa-globe"></i></a>
+				  <div class="pt-3 content">
+					  <span>Copyright © 2019 All Rights Reserved.</span>
+				  </div>
+	  
+			</div>
+		  </div>
+		<div class="side-nav">
+			<div class="side-logo">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<div class="side-btn">
+				<i class="fa fa-align-justify"></i>
+			</div>
+			<div class="side-icons">
+				<div>
+					
+						<i class="fas fa-globe"></i>
+				
+				</div>
+				<div >
+				
+						<i class="fas fa-share-alt"></i>
+					
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+ </section>
+ <section >
+	<div id="search-container" class="container w-75 mt-4">
+		<div class="row " id="search-row">
+			<div class="col-md-6">
+				<input id="searchName" class="form-control mb-2 rounded-0 "	placeholder="Search By Name">
+			</div>
+			<div class="col-md-6">
+				<input class="form-control rounded-0 " type="text" maxlength="1" id="searchLetter" placeholder="Search By First Letter">
+			</div>
+
+		</div>
+	</div>
+
+	<div id="first-page" class="container w-75 py-5">
+		<div class="row recipes g-3 my-5 m-auto">
+          
+		</div>
+	</div>
+	<section id="contact" class="container  w-75 pt-5 mt-5">
+        <div class="w-75 m-auto">
+            <h2 class="text-light mb-5 text-center">ContacUs...</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <input id="Name" class="form-control mb-2 rounded-0" placeholder="Enter Your Name">
+                        <p id="name" class="w-100 alert-danger alert">Special Characters and Numbers not allowed</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <input id="Email" class="form-control mb-2 rounded-0 " placeholder="Enter Email">
+                        <p id="email" class="w-100 alert-danger alert">Enter valid email. *Ex: xxx@yyy.zzz</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div> <input id="Phone" class="form-control mb-2 rounded-0 " placeholder="Enter phone">
+                        <p id="phone" class="w-100 alert-danger alert">Enter valid Phone Number</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <input id="Age" class="form-control mb-2 rounded-0 " placeholder="Enter Age">
+                        <p id="age" class="w-100 alert-danger alert">Enter valid Age</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <input id="Password" type="password" class="form-control mb-2 rounded-0 "
+                            placeholder="Enter Password">
+                        <p id="password" class="w-100 alert-danger alert">Enter valid password *Minimum eight
+                            characters, at least one letter and one number:*</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <input id="Repassword" type="password" class="form-control  mb-2 rounded-0 "
+                            placeholder="Enter valid Repassword">
+                        <p id="repassword" class="w-100 alert-danger alert">Enter valid Repassword</p>
+                    </div>
+                </div>
+                <div class="text-center mt-5"><button id="submitBtn" class="btn btn-outline-danger">Submit</button></div>
+
+            </div>
+    </section>
+ </section>
+
+
+</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
